@@ -1,0 +1,2 @@
+In this project I try to recreate the google search homepage (only the visual aspect of it).
+This project serves as a way to practice the skills learned on the basic web development course of The Odin Project.
