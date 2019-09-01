@@ -16,6 +16,25 @@ main {
     text-align: center;
 }
 
+footer {
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: #eee;
+    font-size: 15px;
+    bottom: 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 30px;
+    color: rgba(0,0,0,.54);
+}
+
 input[type='text']{
     font-size: 16px;
     border: none;
@@ -69,6 +88,7 @@ ul {
 
 li {
     display: list-item;
+    text-align: left;
 }
 
 #navbar li{
@@ -143,4 +163,49 @@ li {
     height: 25px;
     width: 25px;
     margin-top: 25px;
+}
+
+#land {
+    border: 1px solid lightgray;
+    color: rgba(0,0,0,.54);
+    text-align: left;
+}
+
+#footer-elements li {
+    display: inline;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-right: 30px;
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    margin-top: 0;
+    float: left;
+    margin-left: -9px;
+}
+
+#footer-elements li a {
+    text-decoration: none;
+    color: #797979
+}
+
+#footer-elements li a:hover {
+    text-decoration: underline;
+}
+
+#language {
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    margin-left: -27px;
+}
+
+#language p {
+    font-size: small;
+    text-decoration: none;
+}
+
+#language p a {
+    text-decoration: none;
 }
